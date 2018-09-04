@@ -4,12 +4,16 @@ let generateCount = 0;
 
 $(document).ready(onReady);
 console.log('JQ');
+
+function onReady() {
+    console.log('jQuery has been loaded');
 // append a <div> element when you click the button
     $('generateButton').on('click', countClicksOfGenerate);
+}
 
 // Inside the <div> element, create a <p> element that shows how 
 // many times you have clicked the "Generate" button from the first step
-// I spent most of the past hour trying to get the count generator to work.
+// Sadly, I spent most of the past hour+ trying to get the count generator to work.
 function countClicksOfGenerate() {
     $('body').append('<div id="generateButton"></div>')
     generateCount++
