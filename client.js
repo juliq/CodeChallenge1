@@ -9,6 +9,7 @@ console.log('JQ');
 
 // Inside the <div> element, create a <p> element that shows how 
 // many times you have clicked the "Generate" button from the first step
+// I spent most of the past hour trying to get the count generator to work.
 function countClicksOfGenerate() {
     $('body').append('<div id="generateButton"></div>')
     generateCount++
@@ -20,7 +21,8 @@ function countClicksOfGenerate() {
 
 // In a css file, any <div. created using the "Generate" button should start 
 // with red as its background-color
-
+ 
+        
 // Clicking a "Swap" <button> should change its parent background-color from red to yellow
 // (research toggleClass)
 
