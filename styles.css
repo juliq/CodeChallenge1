@@ -1,0 +1,12 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: auto;
+    max-width: 960px;
+    /* background-color: #98fb98 */
+
+    
+}
+
+#buttons {
+    background-color: red;
+}
